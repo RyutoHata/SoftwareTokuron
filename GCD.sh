@@ -3,7 +3,7 @@
 #argument check#
 if [ $# -ne 2 ]; then
   #this is output as error
-  echo  "Number of input is $#.\nGCD.sh requires 2 integer inputs." 1>&2
+  echo  "Number of input is $#. GCD.sh requires 2 integer inputs." 1>&2
   exit 1
 fi
 
