@@ -9,7 +9,7 @@ ERROR_EXIT () {
 }
 
 #test1 count argumens#
-echo "Number of input is $#.\nGCD.sh requires 2 integer inputs."> $tmp-ans
+echo "Number of input is $#.\\nGCD.sh requires 2 integer inputs."> $tmp-ans
 ./GCD.sh 2> $tmp-err && ERROR_EXIT "TEST1-1"
 diff $tmp-ans $tmp-err || ERROR_EXIT "TEST1-2"
 
