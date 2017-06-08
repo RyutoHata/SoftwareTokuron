@@ -14,7 +14,7 @@ expr $2 + 1 > /dev/null 2>&1
 RET2=$?
 
 if [ $RET1 -ge 2 -o $RET2 -ge 2 ]; then
-  echo "Input is not number.\nGCD.sh requires 2 integer inputs." 1>&2
+  echo "Input is not number. GCD.sh requires 2 integer inputs." 1>&2
   exit 1
 fi
 

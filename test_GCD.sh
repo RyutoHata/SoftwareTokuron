@@ -19,7 +19,7 @@ echo "4" > $tmp-ans
 diff $tmp-ans $tmp-out || ERROR_EXIT "TEST2-2"
 
 #test3 only accept integers#
-echo "Input is not number.\nGCD.sh requires 2 integer inputs."> $tmp-ans
+echo "Input is not number. GCD.sh requires 2 integer inputs."> $tmp-ans
 ./GCD.sh aaa 5.6 2> $tmp-err && ERROR_EXIT "TEST3-1"
 diff $tmp-ans $tmp-err || ERROR_EXIT "TEST3-2"
 
