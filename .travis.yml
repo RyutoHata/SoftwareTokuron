@@ -1,3 +1,4 @@
 language: bash
 script:
   - bash ./test_same.sh
+  - bash ./test_GCD.sh
